@@ -1,0 +1,31 @@
+/*********************************************************************
+* *
+execUserSetup()
+* *
+Function description
+* Called once after the target application is downloaded.
+* Implement this macro to set up the memory map, breakpoints,
+* interrupts, register macro files, etc.
+*/
+
+Set_RTT_Address() {
+  __var addr;
+  __var str;
+
+  addr = &_SEGGER_RTT;
+__message "Macro-Set_RTT_Address(): SetRTTAddr ",addr:%x;
+  str = __smessage "SetRTTAddr ",addr:%x;
+__jlinkExecCommand(str);
+}
+
+SetMonModeDebug() {
+__message "Macro-SetMonModeDebug(): Enabling monitor mode";
+__jlinkExecCommand("SetMonModeDebug = 1");
+__jlinkExecCommand("SetMonModeVTableAddr=0x27000");
+}
+
+execUserSetup() {
+SetMonModeDebug();
+Set_RTT_Address();
+}
+

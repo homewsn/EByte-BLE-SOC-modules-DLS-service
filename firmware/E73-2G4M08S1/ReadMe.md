@@ -1,0 +1,1 @@
+Before open IAR workspace move E73-2G4M08S1 folder to "path_to...\nRF5_SDK_17.1.0_ddde560\examples\ble_peripheral\"

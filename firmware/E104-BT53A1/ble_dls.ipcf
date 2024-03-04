@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarProjectConnection name="Simplicity Configurator" version="1.8">
+  <files>
+    <group name="config">
+      <group name="btconf">
+        <path>config\btconf\gatt_configuration.btconf</path>
+      </group>
+      <path>config\sl_memory_config.h</path>
+      <path>config\sl_power_manager_config.h</path>
+      <path>config\sl_device_init_lfrco_config.h</path>
+      <path>config\sl_device_init_dcdc_config.h</path>
+      <path>config\sl_bluetooth_config.h</path>
+      <path>config\sl_hfxo_manager_config.h</path>
+      <path>config\nvm3_default_config.h</path>
+      <path>config\sl_bluetooth_connection_config.h</path>
+      <path>config\app_properties_config.h</path>
+      <path>config\sl_bluetooth_advertiser_config.h</path>
+      <path>config\sl_device_init_emu_config.h</path>
+      <path>config\sl_device_init_hfxo_config.h</path>
+      <path>config\sl_rail_util_pa_config.h</path>
+      <path>config\mbedtls_config.h</path>
+      <path>config\app_assert_config.h</path>
+      <path>config\emlib_core_debug_config.h</path>
+      <path>config\sl_sleeptimer_config.h</path>
+      <path>config\psa_crypto_config.h</path>
+    </group>
+    <group name="autogen">
+      <path>autogen\.crc_config.crc</path>
+      <path>autogen\sl_bluetooth.c</path>
+      <path>autogen\sl_bluetooth.h</path>
+      <path>autogen\sl_application_type.h</path>
+      <path>autogen\RTE_Components.h</path>
+      <path>autogen\sl_component_catalog.h</path>
+      <path>autogen\sl_device_init_clocks.c</path>
+      <path>autogen\sl_event_handler.h</path>
+      <path>autogen\sl_event_handler.c</path>
+      <path>autogen\mbedtls_config_autogen.h</path>
+      <path>autogen\sl_mbedtls_config_transform_autogen.h</path>
+      <path>autogen\sl_power_manager_handler.c</path>
+      <path>autogen\psa_crypto_config_autogen.h</path>
+      <path>autogen\linkerfile.icf</path>
+      <path>autogen\gatt_db.c</path>
+      <path>autogen\gatt_db.h</path>
+    </group>
+    <group name="gecko_sdk_4.0.0">
+      <group name="platform">
+        <group name="Device">
+          <group name="SiliconLabs">
+            <group name="EFR32BG22">
+              <group name="Source">
+                <group name="IAR">
+                  <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Source\IAR\startup_efr32bg22.c</path>
+                </group>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Source\system_efr32bg22.c</path>
+              </group>
+              <group name="Include">
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22c112f352gm32.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_aes.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_agc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_amuxcp.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_bufc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_buram.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_burtc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_cmu.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_cryptoacc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dcdc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_devinfo.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dma_descriptor.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_dpll.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_emu.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_eusart.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_frc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_fsrco.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpcrc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpio.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_gpio_port.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_hfrco.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_hfxo.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_i2c.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_iadc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_icache.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldma.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldmaxbar.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ldmaxbar_defines.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_letimer.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_lfrco.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_lfxo.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_mailbox.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_modem.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_msc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_pdm.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_protimer.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_prs.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_prs_signals.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rac.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rfcrc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rfsense.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_rtcc.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_smu.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_synth.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_syscfg.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_timer.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_ulfrco.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_usart.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\efr32bg22_wdog.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\em_device.h</path>
+                <path>gecko_sdk_4.0.0\platform\Device\SiliconLabs\EFR32BG22\Include\system_efr32bg22.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="common">
+          <group name="inc">
+            <path>gecko_sdk_4.0.0\platform\common\inc\sl_atomic.h</path>
+            <path>gecko_sdk_4.0.0\platform\common\inc\sl_enum.h</path>
+            <path>gecko_sdk_4.0.0\platform\common\inc\sl_slist.h</path>
+            <path>gecko_sdk_4.0.0\platform\common\inc\sl_status.h</path>
+          </group>
+          <group name="toolchain">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\common\toolchain\src\sl_memory.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\common\toolchain\inc\sl_memory_region.h</path>
+              <path>gecko_sdk_4.0.0\platform\common\toolchain\inc\sl_memory.h</path>
+            </group>
+          </group>
+          <group name="src">
+            <path>gecko_sdk_4.0.0\platform\common\src\sl_slist.c</path>
+          </group>
+        </group>
+        <group name="bootloader">
+          <group name="app_properties">
+            <path>gecko_sdk_4.0.0\platform\bootloader\app_properties\app_properties.c</path>
+          </group>
+          <group name="api">
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_interface.c</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_interface_storage.c</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\application_properties.h</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_errorcode.h</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_interface.h</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_interface_parser.h</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_interface_storage.h</path>
+            <path>gecko_sdk_4.0.0\platform\bootloader\api\btl_reset_info.h</path>
+          </group>
+        </group>
+        <group name="CMSIS">
+          <group name="Include">
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\arm_common_tables.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\arm_const_structs.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\arm_math.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\cmsis_compiler.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\cmsis_version.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\cmsis_iccarm.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\core_cm33.h</path>
+            <path>gecko_sdk_4.0.0\platform\CMSIS\Include\mpu_armv8.h</path>
+          </group>
+        </group>
+        <group name="service">
+          <group name="device_init">
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_clocks.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_dcdc.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_emu.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_hfxo.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_lfrco.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\inc\sl_device_init_nvic.h</path>
+            </group>
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\service\device_init\src\sl_device_init_dcdc_s2.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\src\sl_device_init_emu_s2.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\src\sl_device_init_hfxo_s2.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\src\sl_device_init_lfrco.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\device_init\src\sl_device_init_nvic.c</path>
+            </group>
+          </group>
+          <group name="hfxo_manager">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\service\hfxo_manager\src\sl_hfxo_manager.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\hfxo_manager\src\sl_hfxo_manager_hal_s2.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\hfxo_manager\src\sli_hfxo_manager_internal.h</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\service\hfxo_manager\inc\sl_hfxo_manager.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\hfxo_manager\inc\sli_hfxo_manager.h</path>
+            </group>
+          </group>
+          <group name="power_manager">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\src\sl_power_manager.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\src\sl_power_manager_debug.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\src\sl_power_manager_hal_s2.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\src\sli_power_manager_private.h</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\inc\sl_power_manager.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\inc\sl_power_manager_debug.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\power_manager\inc\sli_power_manager.h</path>
+            </group>
+          </group>
+          <group name="system">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\service\system\src\sl_system_init.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\system\src\sl_system_process_action.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\service\system\inc\sl_system_init.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\system\inc\sl_system_process_action.h</path>
+            </group>
+          </group>
+          <group name="sleeptimer">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\src\sl_sleeptimer.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_rtcc.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_prortc.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\src\sl_sleeptimer_hal_burtc.c</path>
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\src\sli_sleeptimer_hal.h</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\inc\sl_sleeptimer.h</path>
+              <path>gecko_sdk_4.0.0\platform\service\sleeptimer\inc\sli_sleeptimer.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emdrv">
+          <group name="common">
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\emdrv\common\inc\ecode.h</path>
+            </group>
+          </group>
+          <group name="nvm3">
+            <group name="src">
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\src\nvm3_default_common_linker.c</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\src\nvm3_hal_flash.c</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\src\nvm3_lock.c</path>
+            </group>
+            <group name="inc">
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\inc\nvm3_default.h</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\inc\nvm3.h</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\inc\nvm3_hal.h</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\inc\nvm3_hal_flash.h</path>
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\inc\nvm3_lock.h</path>
+            </group>
+            <group name="lib">
+              <path>gecko_sdk_4.0.0\platform\emdrv\nvm3\lib\libnvm3_CM33_iar.a</path>
+            </group>
+          </group>
+        </group>
+        <group name="emlib">
+          <group name="src">
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_burtc.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_cmu.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_assert.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_core.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_emu.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_gpio.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_msc.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_prs.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_rtcc.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_se.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_system.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_timer.c</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\src\em_usart.c</path>
+          </group>
+          <group name="inc">
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_burtc.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_chip.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_cmu.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_cmu_compat.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_assert.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_bus.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_common.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_ramfunc.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_version.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_core.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_emu.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_gpio.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_msc.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_msc_compat.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_prs.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_rtcc.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_se.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_system.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_timer.h</path>
+            <path>gecko_sdk_4.0.0\platform\emlib\inc\em_usart.h</path>
+          </group>
+        </group>
+        <group name="radio">
+          <group name="rail_lib">
+            <group name="common">
+              <path>gecko_sdk_4.0.0\platform\radio\rail_lib\common\rail.h</path>
+              <path>gecko_sdk_4.0.0\platform\radio\rail_lib\common\rail_mfm.h</path>
+              <path>gecko_sdk_4.0.0\platform\radio\rail_lib\common\rail_assert_error_codes.h</path>
+              <path>gecko_sdk_4.0.0\platform\radio\rail_lib\common\rail_types.h</path>
+              <path>gecko_sdk_4.0.0\platform\radio\rail_lib\common\rail_features.h</path>
+            </group>
+            <group name="protocol">
+              <group name="ble">
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\protocol\ble\rail_ble.h</path>
+              </group>
+              <group name="ieee802154">
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\protocol\ieee802154\rail_ieee802154.h</path>
+              </group>
+              <group name="zwave">
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\protocol\zwave\rail_zwave.h</path>
+              </group>
+            </group>
+            <group name="chip">
+              <group name="efr32">
+                <group name="efr32xg2x">
+                  <path>gecko_sdk_4.0.0\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="autogen">
+              <group name="librail_release">
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\autogen\librail_release\librail_efr32xg22_iar_release.a</path>
+              </group>
+            </group>
+            <group name="plugin">
+              <group name="pa-conversions">
+                <group name="efr32xg22">
+                  <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\efr32xg22\sl_rail_util_pa_curves.h</path>
+                </group>
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.c</path>
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.c</path>
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h</path>
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h</path>
+                <path>gecko_sdk_4.0.0\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="app">
+        <group name="common">
+          <group name="util">
+            <group name="app_assert">
+              <path>gecko_sdk_4.0.0\app\common\util\app_assert\app_assert.h</path>
+              <path>gecko_sdk_4.0.0\app\common\util\app_assert\sl_app_assert.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="protocol">
+        <group name="bluetooth">
+          <group name="inc">
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sli_bt_gattdb_def.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_stack_config.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_ll_config.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bgapi.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_api.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_api_compatibility.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_stack_init.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_types.h</path>
+            <path>gecko_sdk_4.0.0\protocol\bluetooth\inc\sl_bt_version.h</path>
+          </group>
+          <group name="lib">
+            <group name="EFR32BG22">
+              <group name="IAR">
+                <path>gecko_sdk_4.0.0\protocol\bluetooth\lib\EFR32BG22\IAR\libbluetooth.a</path>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="util">
+        <group name="third_party">
+          <group name="crypto">
+            <group name="sl_component">
+              <group name="sl_cryptoacc_library">
+                <group name="src">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\ba414ep_config.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\ba431_config.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\cryptodma_internal.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\cryptolib_types.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_aes.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_blk_cipher.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_dh_alg.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_ecc_curves.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_ecc_keygen_alg.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_ecdsa_alg.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_hash.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_math.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_memcmp.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_memcpy.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_primitives.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_rng.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\src\sx_trng.c</path>
+                </group>
+                <group name="include">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba411e_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba413_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba414ep_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba417_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba418_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\ba431_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\compiler_extentions.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\cryptodma_internal.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\cryptolib_def.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\cryptolib_types.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_aes.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_blk_cipher.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_blk_cipher_common.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_debug.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_dh_alg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_dma.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_drbg_hash.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_ecc_curves.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_ecc_keygen_alg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_ecdsa_alg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_errors.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_features.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_hash.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_hw_cfg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_math.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_memcmp.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_memcpy.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_primitives.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_rng.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sx_trng.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_cryptoacc_library\include\sxregs.h</path>
+                </group>
+              </group>
+              <group name="sl_mbedtls_support">
+                <group name="config">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\config\config-device-acceleration.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\config\config-sl-crypto-all-acceleration.h</path>
+                </group>
+                <group name="src">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\sl_mbedtls.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\cryptoacc_aes.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\mbedtls_ccm.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\mbedtls_cmac.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\mbedtls_ecdsa_ecdh.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\src\cryptoacc_gcm.c</path>
+                </group>
+                <group name="inc">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\aes_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\ccm_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\cmac_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\sha1_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\sha256_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\sha512_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\threading_alt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_mbedtls_support\inc\gcm_alt.h</path>
+                </group>
+              </group>
+              <group name="sl_psa_driver">
+                <group name="src">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_psa_driver_common.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_psa_trng.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_psa_driver_init.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\cryptoacc_management.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_hash.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_cipher.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_aead.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_mac.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_key_derivation.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_key_management.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sli_cryptoacc_transparent_driver_signature.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\src\sl_psa_its_nvm3.c</path>
+                </group>
+                <group name="inc">
+                  <group name="psa">
+                    <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\psa\internal_trusted_storage.h</path>
+                    <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\psa\error.h</path>
+                  </group>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\sli_psa_driver_common.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\cryptoacc_management.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\sli_cryptoacc_transparent_functions.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_psa_driver\inc\sli_cryptoacc_transparent_types.h</path>
+                </group>
+              </group>
+              <group name="se_manager">
+                <group name="src">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_cipher.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_entropy.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_hash.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_key_derivation.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_key_handling.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_signature.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_util.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sl_se_manager_attestation.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sli_se_manager_osal.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\src\sli_se_manager_osal_baremetal.h</path>
+                </group>
+                <group name="inc">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_check_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_cipher.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_defines.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_entropy.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_hash.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_key_derivation.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_key_handling.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_signature.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_types.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_util.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_attestation.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sl_se_manager_internal_keys.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\se_manager\inc\sli_se_manager_internal.h</path>
+                </group>
+              </group>
+              <group name="sl_protocol_crypto">
+                <group name="src">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_protocol_crypto\src\sli_protocol_crypto_radioaes.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_protocol_crypto\src\sli_radioaes_management.c</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_protocol_crypto\src\sli_protocol_crypto.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\sl_component\sl_protocol_crypto\src\sli_radioaes_management.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="mbedtls">
+              <group name="library">
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\threading.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\platform.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\platform_util.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\common.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\ecp_invasive.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\entropy_poll.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\pk_wrap.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\md_wrap.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\ssl_invasive.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\ssl_tls13_keys.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\bn_mul.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\cipher.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\cipher_wrap.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_aead.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_cipher.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_driver_wrappers.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_slot_management.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_storage.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_ecp.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_hash.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_mac.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_rsa.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_se.c</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\check_crypto_config.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\cipher_wrap.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_aead.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_cipher.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_core.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_driver_wrappers.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_ecp.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_hash.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_invasive.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_its.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_mac.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_random_impl.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_rsa.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_se.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_slot_management.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_storage.h</path>
+                <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\library\psa_crypto_client.c</path>
+              </group>
+              <group name="include">
+                <group name="mbedtls">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\aes.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\aria.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\asn1.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\asn1write.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\base64.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\bignum.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\build_info.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\camellia.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ccm.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\chacha20.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\chachapoly.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\check_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\cipher.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\cmac.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\compat-2.x.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\config_psa.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ctr_drbg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\debug.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\des.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\dhm.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ecdh.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ecdsa.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ecjpake.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ecp.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\entropy.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\error.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\gcm.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\hkdf.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\hmac_drbg.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\mbedtls_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\md.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\md5.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\memory_buffer_alloc.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\net_sockets.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\nist_kw.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\oid.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\pem.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\pk.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\pkcs12.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\pkcs5.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\platform.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\platform_time.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\platform_util.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\poly1305.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\private_access.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\psa_util.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ripemd160.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\rsa.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\sha1.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\sha256.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\sha512.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ssl.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ssl_cache.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ssl_ciphersuites.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ssl_cookie.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\ssl_ticket.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\threading.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\timing.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\version.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\x509.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\x509_crl.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\x509_crt.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\mbedtls\x509_csr.h</path>
+                </group>
+                <group name="psa">
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_builtin_composites.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_builtin_primitives.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_compat.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_config.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_driver_common.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_driver_contexts_composites.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_driver_contexts_primitives.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_extra.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_platform.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_se_driver.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_sizes.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_struct.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_types.h</path>
+                  <path>gecko_sdk_4.0.0\util\third_party\crypto\mbedtls\include\psa\crypto_values.h</path>
+                </group>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="silicon_labs">
+          <group name="silabs_core">
+            <group name="memory_manager">
+              <path>gecko_sdk_4.0.0\util\silicon_labs\silabs_core\memory_manager\sl_malloc.c</path>
+              <path>gecko_sdk_4.0.0\util\silicon_labs\silabs_core\memory_manager\sl_malloc.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <path>disp.c</path>
+    <path>disp.h</path>
+    <path>lora-defs.h</path>
+    <path>main.c</path>
+    <path>app.c</path>
+    <path>isoc.c</path>
+    <path>ubx.c</path>
+    <path>app.h</path>
+    <path>ble_dls.h</path>
+    <path>geo_location.h</path>
+    <path>isoc.h</path>
+    <path>ubx.h</path>
+  </files>
+  <SimplicityStudioMetadata>
+    <metadata>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</metadata>
+  </SimplicityStudioMetadata>
+</iarProjectConnection>

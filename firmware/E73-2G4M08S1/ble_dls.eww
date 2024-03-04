@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\pca10056\s140\iar\ble_dls_e73-2g4m08s1c_s140.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\pca10100\s140\iar\ble_dls_e73-2g4m08s1e_s140.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
